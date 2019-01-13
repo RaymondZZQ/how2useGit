@@ -1,0 +1,29 @@
+1、git使用目标：
+    创建和使用存储库（repository）
+    启动并管理新分支(branch)
+    对文件进行更改并将其作为提交推送(push commit)到GitHub
+    打开并合并拉取请求（pull request）
+
+    note:(1)Pull Requests是GitHub上合作的核心。
+            当您打开拉取请求时，您提出了更改并请求某人审核并提取您的贡献并将其合并到他们的分支中。
+          拉请求显示来自两个分支的内容的差异或差异。更改，添加和减少以绿色和红色显示.
+
+2、安装Git软件，git是本地的一个软件，用于版本控制，
+   安装Git后会产生三个文件 Git Bash、 Git CMD、 Git GUI,其中：
+     （1）Git Bash 和Git CMD是两个命令行的输入窗口，Bash在CMD的基础上新增了一些命令和功能，推荐使用Git Bash
+      (2) Git GUI是Git的图形化界面
+
+
+3、（1）在github网页右上角+点击new repository，填写相关信息并创建仓库，这时会创建一个主分支master,
+   （2）在此仓库创建分支：创建一个新分支()
+                         转到新的存储库hello-world。
+                         单击文件列表顶部的下拉列表：master：master。
+                         在新分支文本框中键入新分支名称，如：branch_1。
+                         选择蓝色的创建分支框或按键盘上的“Enter”。
+
+   经过2后，仓库会同时存在两个分支，master和branch-1，而branch-1实际只是master的一个副本
+
+   （3）在分支branch-1修改程序后，我们需要pull requset(拉请求)
+        在master分支下打开pull request--> 新拉请求 --》审核代码--> 创建拉取 --》简要说明 --》创建拉取请求 -》合并拉取请求--》（继续删除分支）
+
+4、解决Git Bash命令行下无法复制的问题：快捷键改为 Crtl + ins/ shift + ins
