@@ -1,4 +1,4 @@
-Git tourious:
+﻿Git tourious:
 
 1-安装完成后，执行下面的命令，主要是为了表明身份
 git config --global user.name "Your Name"
@@ -66,6 +66,11 @@ git config --global user.email "email@example.com"
      (4)关联远程仓库learngit,
          SSH方式    git remote add origin git@server-name:path/repo-name.git ##git@github.com:jakezzq/hello-world.git
          THHPS方式  git remote add origin https://github.com/jakezzq/learngit.git
+
+       origin实际上就是远程仓库的网址等信息，查看 
+        git remote -v
+       改变网址: git remote rm origin     git remote add origin XXXX
+              或者直接修改 git remote origin set-url [url]
        关联后，第一次推送master分支的所有内容：
           git push -u origin master  ##master代表的是主分支master
        此后，每次本地提交后，只要有必要，就可以使用命令
